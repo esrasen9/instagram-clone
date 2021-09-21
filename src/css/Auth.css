@@ -1,0 +1,26 @@
+.modal {
+    margin: 0 auto;
+}
+
+.modal__image {
+    align-self: center;
+}
+.modal__sign_in__router{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.modal__sign_in__router p {
+    color: cornflowerblue;
+    opacity: 0.9;
+}
+.form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input{
+    padding: 20px;
+}

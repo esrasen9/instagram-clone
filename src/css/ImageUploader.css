@@ -1,0 +1,16 @@
+.image__uploader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.image__uploader__progress{
+    width: 100%;
+    padding: 10px;
+}
+
+.image__uploader__input {
+    padding: 10px 0;
+}
