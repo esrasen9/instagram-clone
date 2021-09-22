@@ -28,11 +28,8 @@ function App() {
   useEffect(()=>{
       const handleSubscribe = auth.onAuthStateChanged((user)=>{
               if(user){
-                  console.log(user);
                   setUser(user);
-                  if(user.displayName){
-                  }
-                  else {
+                  if(!user.displayName){
                       return user.updateProfile({
                           displayName: username
                       });
